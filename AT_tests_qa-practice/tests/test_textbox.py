@@ -6,7 +6,7 @@ import pytest
 @allure.testcase("TBX functionality")
 class TestTextBox(BaseTest):
     
-    @allure.title("TBX testcase title")
+    @allure.title("TBX testcase title") #comments in GitHub
     @allure.severity("High")
     # @pytest.mark.smoke
     def test_textbox(self):
