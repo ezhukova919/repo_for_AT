@@ -5,8 +5,8 @@ import pytest
 
 @allure.testcase("TBX functionality")
 class TestTextBox(BaseTest):
-    
-    @allure.title("TBX testcase title")
+
+    @allure.title("TBX testcase title")  # comments
     @allure.severity("High")
     # @pytest.mark.smoke
     def test_textbox(self):
@@ -16,5 +16,3 @@ class TestTextBox(BaseTest):
         self.text_page.textbox_clear()
         self.text_page.textbox_input_value()
         self.text_page.submit()
-
-
