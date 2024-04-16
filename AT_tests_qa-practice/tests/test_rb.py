@@ -6,7 +6,7 @@ import pytest
 class TestRB(BaseTest):
 
 
-    @allure.title("RB testcase title")
+    @allure.title("RB testcase title") #comments
     @allure.severity("High")
     # @pytest.mark.smoke
     def test_rb(self):
