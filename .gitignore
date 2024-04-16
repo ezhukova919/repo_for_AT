@@ -1,0 +1,7 @@
+
+.env
+__pycache__
+Playwright/*
+venv3/pyvenv.cfg
+venv3/*
+sel_lessons/*
